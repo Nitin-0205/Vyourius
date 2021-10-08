@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Vyourius/static/css/main.6bdf75bd.chunk.css",
+    "main.js": "/Vyourius/static/js/main.74362923.chunk.js",
+    "main.js.map": "/Vyourius/static/js/main.74362923.chunk.js.map",
+    "runtime-main.js": "/Vyourius/static/js/runtime-main.993b5b15.js",
+    "runtime-main.js.map": "/Vyourius/static/js/runtime-main.993b5b15.js.map",
+    "static/js/2.aca65be9.chunk.js": "/Vyourius/static/js/2.aca65be9.chunk.js",
+    "static/js/2.aca65be9.chunk.js.map": "/Vyourius/static/js/2.aca65be9.chunk.js.map",
+    "index.html": "/Vyourius/index.html",
+    "static/css/main.6bdf75bd.chunk.css.map": "/Vyourius/static/css/main.6bdf75bd.chunk.css.map",
+    "static/js/2.aca65be9.chunk.js.LICENSE.txt": "/Vyourius/static/js/2.aca65be9.chunk.js.LICENSE.txt",
+    "static/media/logo.df2fe802.png": "/Vyourius/static/media/logo.df2fe802.png",
+    "static/media/vyorius_secImg.edde0925.png": "/Vyourius/static/media/vyorius_secImg.edde0925.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.993b5b15.js",
+    "static/js/2.aca65be9.chunk.js",
+    "static/css/main.6bdf75bd.chunk.css",
+    "static/js/main.74362923.chunk.js"
+  ]
+}
