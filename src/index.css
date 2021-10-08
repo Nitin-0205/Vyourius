@@ -1,13 +1,108 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#Head{
+  width:100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 3rem;
+  border-top: 1px solid rgba(160, 160, 160, 0.822);
+  border-bottom: 1px solid rgba(160, 160, 160, 0.822);
+
+}
+#Head .logo{
+  display: flex;
+  align-items: center;
+}
+#Head .logo #log{
+  width:3.5rem;
+  height: 3.5rem;
+}
+#Head .logo #log_name{
+  width:5rem;
+  height:1.5rem;
+}
+#Head .Menu_item{
+  display: flex;
+  gap:2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+#Head .Menu_item li{
+  list-style: none;
+}
+#Head .Menu_item li a{
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
+#Head .head_launchBtn{
+  border-style: none;
+  outline:none;
+  font-size: 0.9rem;
+  background-color: rgb(255, 123, 0);
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+/* Main Section   */
+
+#Main{
+  width:100vw;
+  display: flex;
+  padding: 3rem;
+}
+#Main .Home_decpt_con{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width:48%;
+  padding: 1rem 1rem;
+}
+#Main .Home_decpt_con .con_para{
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+
+}
+#Main .Home_Img_con{
+  width:52%;
+}
+#Main .Home_Img_con img{
+  width: 100%;
+}
+#Main .Home_decpt_con span{
+  color: rgb(255, 123, 0);
+}
+#Main .Home_decpt_con h1{
+  font-size: 3rem;
+}
+
+#Main .Home_decpt_con h3{
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+#Main .bookDel_contain{
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+#Main .bookDel_contain button{
+  width: 49%;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 1.8rem 3rem;
+  outline: none;
+  border-style: none;
+  border-radius: 0.5rem;
+
+}
+#Main .bookDel_contain .orderBtn{
+  background-color: rgb(255, 102, 0);
+  color: #fff;
+
 }
